@@ -1,24 +1,30 @@
-# README
+# 簡易仕様書
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* アプリ名：「GourmetSearchApp」
 
-Things you may want to cover:
+* 対象OSおよびブラウザ：
 
-* Ruby version
+* 開発環境：Windows11, VScode
 
-* System dependencies
+* 開発言語：Ruby (Ruby on rails), JavaScript
 
-* Configuration
+* 開発期間：約1週間
 
-* Database creation
+* 機能一覧：   
+  1. 現在地の取得機能
+  2. お店の検索機能
 
-* Database initialization
 
-* How to run the test suite
+* フレームワーク：
 
-* Services (job queues, cache servers, search engines, etc.)
+* 設計ドキュメント：
 
-* Deployment instructions
+* コンセプト：
 
-* ...
+* こだわりポイント：
+
+* デザイン面でこだわったポイント：
+
+* アドバイスして欲しいポイント：
+
+* 自己評価：
