@@ -1,0 +1,26 @@
+.shop {
+    padding: 20px 0px;
+    height: 300px;
+    width: 100%;
+    border-bottom: 2px dotted #4F4A45;
+}
+
+.shop h3 {
+    padding-left: 50px;
+}
+.info {
+    display: flex;
+    height: 238px;
+}
+.info-left {
+    float: left;
+    padding-left: 50px;
+}
+
+.info-right {
+    padding-left: 30px;
+}
+
+.info-right p {
+    font-weight: bold;
+}

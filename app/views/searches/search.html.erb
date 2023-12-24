@@ -1,0 +1,16 @@
+<div class="main">
+    <% @shops.each do |shop| %>
+        <div class="shop">
+            <h3><%= shop["name"] %></h3>
+            <div class="info">
+                <div class="info-left">
+                    <%= image_tag shop["photo"]["pc"]["l"], alt: "店舗画像" %>
+                </div>
+                <div class="info-right">
+                    <p>アクセス</P>
+                    <%= shop["access"] %>
+                </div>
+            </div>
+        </div>
+    <% end %>
+</div>

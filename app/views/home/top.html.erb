@@ -1,0 +1,16 @@
+<div class="main top-main">
+    <div class="content">
+        <h1>現在地付近のお店を検索します</h1>
+        <p>ボタンを押して現在地を取得してください</p>
+        <button id="location-btn" class="btn">
+            現在位置を取得
+        </button>
+        <p>検索範囲を指定して付近のお店を検索してみましょう</p>
+        <%= form_with url: "/search", method: :post, data: { turbo: false } do |f| %> 
+                <%= hidden_field_tag :lat, "緯度" %>
+                <%= hidden_field_tag :lng, "軽度" %>
+            <p><%= f.select :range, options_for_select({"300m" => "1", "500m" => "2", "1000m" => "3", "2000m" => "4", "3000m" => "5"}) %></p>
+            <p><%= f.submit "検索", class: "btn" %></p>
+        <% end %>
+    </div>
+</div>
