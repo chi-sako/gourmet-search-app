@@ -23,7 +23,8 @@
 
 * フレームワーク：Ruby on rails (ver.7.2)
 
-* 設計ドキュメント：![image](https://github.com/chi-sako/gourmet-search-app/assets/139673856/140dafc6-698c-471d-85ab-cc3996c0e089)
+* 設計ドキュメント：  
+  ![image](https://github.com/chi-sako/gourmet-search-app/assets/139673856/140dafc6-698c-471d-85ab-cc3996c0e089)
 
 * コンセプト：
 
